@@ -28,7 +28,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "text-tools",
     data: {
-      trixAttribute: "strike"
+      trixAttribute: "strike",
     },
   },
   link: {
@@ -40,7 +40,7 @@ export const TOOLBAR_ACTION_OPTS = {
     data: {
       trixAttribute: "href",
       trixKey: "k",
-      trixAction: "link"
+      trixAction: "link",
     },
   },
   heading1: {
@@ -50,7 +50,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAttribute: "heading1"
+      trixAttribute: "heading1",
     },
   },
   quote: {
@@ -60,7 +60,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAttribute: "quote"
+      trixAttribute: "quote",
     },
   },
   code: {
@@ -70,7 +70,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAttribute: "code"
+      trixAttribute: "code",
     },
   },
   bullet: {
@@ -80,7 +80,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAttribute: "bullet"
+      trixAttribute: "bullet",
     },
   },
   number: {
@@ -90,27 +90,29 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAttribute: "number"
+      trixAttribute: "number",
     },
   },
   outdent: {
     type: "button",
-    classNames: "trix-button trix-button--icon trix-button--icon-decrease-nesting-level",
+    classNames:
+      "trix-button trix-button--icon trix-button--icon-decrease-nesting-level",
     languageKey: "outdent",
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAction: "decreaseNestingLevel"
+      trixAction: "decreaseNestingLevel",
     },
   },
   indent: {
     type: "button",
-    classNames: "trix-button trix-button--icon trix-button--icon-increase-nesting-level",
+    classNames:
+      "trix-button trix-button--icon trix-button--icon-increase-nesting-level",
     languageKey: "indent",
     tabIndex: "-1",
     trixButtonGroup: "block-tools",
     data: {
-      trixAction: "increaseNestingLevel"
+      trixAction: "increaseNestingLevel",
     },
   },
   attachFiles: {
@@ -120,7 +122,7 @@ export const TOOLBAR_ACTION_OPTS = {
     tabIndex: "-1",
     trixButtonGroup: "file-tools",
     data: {
-      trixAction: "attachFiles"
+      trixAction: "attachFiles",
     },
   },
   undo: {
@@ -151,7 +153,7 @@ export const TOOLBAR_LANGUAGE_OPTS = {
   attachFiles: "Attach Files",
   bold: "Bold",
   bullets: "Bullets",
-  byte:  "Byte",
+  byte: "Byte",
   bytes: "Bytes",
   captionPlaceholder: "Add a caption…",
   code: "Code",
@@ -174,13 +176,18 @@ export const TOOLBAR_LANGUAGE_OPTS = {
   MB: "MB",
   PB: "PB",
   TB: "TB",
+  underline: "Underline",
+  pageBreak: "Page Break",
+  horizontalRule: "Horizontal Rule",
+  fontColor: "Text Color",
+  highlight: "Highlighter",
 };
 
 export const TOOLBAR_ACTION_GROUP_OPTS = {
   "text-tools": "trix-button-group trix-button-group--text-tools",
   "block-tools": "trix-button-group trix-button-group--block-tools",
   "file-tools": "trix-button-group trix-button-group--file-tools",
-  "history-tools": "trix-button-group trix-button-group--history-tools"
+  "history-tools": "trix-button-group trix-button-group--history-tools",
 };
 
 export const SPACER_BEFORE_TOOL_GROUP = "history-tools";
